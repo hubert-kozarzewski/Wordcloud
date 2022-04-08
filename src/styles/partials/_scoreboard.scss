@@ -1,0 +1,12 @@
+.scoreboard {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: $xl-size $m-size;
+    position: absolute;
+    left: 30%;
+    font-size: 50px;
+}
+
+.points {
+    color: $teal;
+}

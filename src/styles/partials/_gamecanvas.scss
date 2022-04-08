@@ -1,0 +1,50 @@
+.canvas {
+    position: absolute;
+    left: 30%;
+    margin-top: $xl-size;
+}
+
+.canvas__div {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    border: .1rem solid darken($teal, 10%);
+    border-radius: 10px;
+    padding: $l-size;
+}
+
+.canvas__h1 {
+    font-size: $s-size ;
+}
+
+.answer {
+    background: $off-white;
+    border: none;
+    color: $teal;
+    font-weight: 700;
+    font-size: $s-size;
+    padding: $s-size;
+    border-radius: 10px;
+}
+
+.canvas__button {
+    background: $off-white;
+    border: .1rem solid darken($teal, 10%);
+    color: $teal;
+    font-weight: 500;
+    padding: $s-size;
+    margin-top: $s-size;
+    border-radius: 10px;
+}
+
+.answer:disabled {
+    color: gray;
+}
+
+.check_good {
+    color: green;  
+}
+
+.check_bad {
+    color: red;
+}

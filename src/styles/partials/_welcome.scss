@@ -1,0 +1,38 @@
+.welcome {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: $xl-size $m-size;
+    position: absolute;
+    left: 30%;
+}
+
+.welcome__h1 {
+    font-size: 70px;
+}
+
+.welcome__input {
+    background: white;
+    border: .1rem solid $honey;
+    width: 60%;
+    color: black;
+    font-weight: 500;
+    padding: $s-size;
+    border-radius: 10px;
+}
+
+.welcome__form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.welcome__form__button {
+    width: 30%;
+    background: white;
+    border: .1rem solid darken($teal, 10%);
+    color: $teal;
+    font-weight: 500;
+    padding: $s-size;
+    margin-top: $s-size;
+    border-radius: 10px;
+}
